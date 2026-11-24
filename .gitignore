@@ -1,0 +1,13 @@
+# Binaries & build artifacts
+minic
+*.o
+*.dSYM/
+
+# AST output visualizations
+*.dot
+*.png
+
+# OS / Editor files
+.DS_Store
+.vscode/
+.idea/

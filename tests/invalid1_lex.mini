@@ -1,0 +1,4 @@
+// Invalid Test 1: Lexical error
+// Contains unrecognized character '@' which is not in MiniLang's alphabet
+int x = 100;
+int y = x @ 5; // Lexical error: unexpected character '@'

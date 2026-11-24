@@ -1,0 +1,9 @@
+// Invalid Test 2: Syntax errors to exercise panic-mode recovery
+// Error 1: Missing semicolon in variable assignment
+int x = 10;
+x = 20
+
+// Error 2: Malformed while condition (missing closing parenthesis)
+while (x > 0 {
+    x = x - 1;
+}

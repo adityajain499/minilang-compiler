@@ -1,0 +1,14 @@
+// Valid Test 1: Arithmetic expressions, precedence, and if/else branching
+int a = 10;
+int b = 20;
+int c;
+
+// Precedence test: b * 2 evaluated before a +
+c = a + b * 2 - (a / 2);
+
+if (c >= 40) {
+    int factor = 2;
+    c = c * factor;
+} else {
+    c = 0;
+}

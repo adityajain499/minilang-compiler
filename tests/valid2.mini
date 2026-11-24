@@ -1,0 +1,13 @@
+// Valid Test 2: While loop, relational operators, and accumulator
+int count = 1;
+int max_limit = 5;
+int total = 0;
+
+while (count <= max_limit) {
+    total = total + count * count;
+    count = count + 1;
+}
+
+if (total != 0) {
+    int verified = 1;
+}
